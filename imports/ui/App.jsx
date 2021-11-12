@@ -4,6 +4,7 @@ import { About } from './About.jsx';
 import { Users } from './Users.jsx';
 import 'mdb-ui-kit/css/mdb.min.css';
 import 'mdb-ui-kit/js/mdb.min.js';
+import 'animate.css';
 
 import {
   BrowserRouter as Router,

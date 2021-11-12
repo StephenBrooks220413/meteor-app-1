@@ -9,8 +9,12 @@ export const Home = () => {
           <br/>
           <div className={"title-wrapper text-center"}>
               <h1 className={"title"}>
-                  Web <span className={"text-danger"}>Design</span>
-                  <br/> & <span className={"text-warning"}>Development</span>
+                  <div className={"animate__animated animate__backInLeft"}>
+                      Web <span className={"text-danger"}>Design</span>
+                  </div>
+                  <div className={"animate__animated animate__backInRight animate__slow"}>
+                      & <span className={"text-warning"}>Development</span>
+                  </div>
               </h1>
               <h1 className={"display-6"}>
                   By Stephen Brooks
@@ -21,12 +25,13 @@ export const Home = () => {
           <div className={"container"}>
               <div className={"row"}>
                   <div className={"col-md mt-3"}>
-                      <h2>Meteor</h2>
+                      <h2>Development</h2>
                       <p className={"lead"}>
-                          Creating and building apps that use React but with much lighter
-                          application build. Utilizes MongoDB and Node.js. Layouts created
-                          with MDB5, making a responsive website. This is a template for
-                          an app that could be built with this framework.
+                          Created this app with Material Design for Bootstrap5,
+                          animated css, Meteor framework with React.js, Node.js
+                          server language and MongoDB for holding the data. I support
+                          Meteor in Github, as it is a fast and lightweight application
+                          for websites.
                       </p>
                   </div>
                   <div className={"col-md text-center mt-3"}>
@@ -34,15 +39,16 @@ export const Home = () => {
                            className={"img-fluid"}
                            alt="meteor"/>
                   </div>
-
-                  <div className={"intro"}>
-                      <div className={"container p-5"}>
-                          <h1 className={"display-3 text-primary"}>
-                              Designing Products
-                          </h1>
-                      </div>
+              </div>
+              <br/><br/><br/>
+              <div className={"intro"}>
+                  <div className={"container p-5"}>
+                      <h1 className={"display-3 text-primary"}>
+                          Designing Products
+                      </h1>
                   </div>
               </div>
+              <br/><br/><br/>
           </div>
       </div>
 
