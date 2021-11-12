@@ -1,77 +1,51 @@
 import React from 'react';
+import '../public/main.css';
 
 export const Home = () => {
 
   return (
     <>
-      <div className="main">
-        <div className="container">
-          <div className="row text-white">
-            <div className="col-md p-3">
-              <h1 className="display-4">Home Page</h1>
-              <h4>My Profile</h4>
-              <hr className="text-white" />
-              <p className="lead text-start">
-                Photographer, web designer, and blogger. Using 
-                JavaScript framework like Meteor tomake this app.
-              </p>
-              <a href="#" className="btn btn-primary btn-lg">MESSAGE ME</a>
-            </div>
-            <div className="col-md">
-              <img 
-                src="https://images.unsplash.com/photo-1520223297779-95bbd1ea79b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1073&q=80" 
-                className="img-fluid"
-                alt="profile" />
-            </div>
+      <div className={"container space"}>
+          <br/>
+          <div className={"title-wrapper text-center"}>
+              <h1 className={"title"}>
+                  Web <span className={"text-danger"}>Design</span>
+                  <br/> & <span className={"text-warning"}>Development</span>
+              </h1>
+              <h1 className={"display-6"}>
+                  By Stephen Brooks
+              </h1>
           </div>
-        </div>
+          <div className={"logo"}></div>
+          <br/>
+          <div className={"container"}>
+              <div className={"row"}>
+                  <div className={"col-md mt-3"}>
+                      <h2>Meteor</h2>
+                      <p className={"lead"}>
+                          Creating and building apps that use React but with much lighter
+                          application build. Utilizes MongoDB and Node.js. Layouts created
+                          with MDB5, making a responsive website. This is a template for
+                          an app that could be built with this framework.
+                      </p>
+                  </div>
+                  <div className={"col-md text-center mt-3"}>
+                      <img src="https://th.bing.com/th/id/OIP.h2fRzUP76zqr5v_m134UrQHaEO?w=292&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+                           className={"img-fluid"}
+                           alt="meteor"/>
+                  </div>
+
+                  <div className={"intro"}>
+                      <div className={"container p-5"}>
+                          <h1 className={"display-3 text-primary"}>
+                              Designing Products
+                          </h1>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
-      {/* featured content */}
-      <div className="container text-center mt-2 mb-5">
-        <div className="row">
-          <div className="col-md mt-3">
-            <div className="hover-shadow card p-3">
-              <i class="fas icon fa-camera-retro"></i>
-              <p className="lead">
-                Go to my gallery to see my most recent work.
-              </p>
-              <a href="#" class="btn btn-outline-primary">Go Look</a>
-            </div>
-          </div>
-          <div className="col-md mt-3">
-            <div className="hover-shadow card p-3">
-              <i class="fas icon fa-globe-americas"></i>
-              <p className="lead">
-                Go to my gallery to see my most recent work.
-              </p>
-              <a href="#" class="btn btn-outline-primary">Go Look</a>
-            </div>
-          </div>
-          <div className="col-md mt-3">
-            <div className="hover-shadow card p-3">
-              <i class="fas icon fa-laptop"></i>
-              <p className="lead">
-                Go to my gallery to see my most recent work.
-              </p>
-              <a href="#" class="btn btn-outline-primary">Go Look</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="container text-center mt-5 pb-5 mb-5">
-        <div className="row">
-          <div className="col-md mt-3">
-            <img 
-              src="https://images.unsplash.com/photo-1480365501497-199581be0e66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" 
-              className="img-fluid"
-              alt="" />
-          </div>
-          <div className="col-md mt-3">
-            <h1>Safe Wording</h1>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. In temporibus quaerat neque veritatis repellendus. Ex ad nisi sequi dicta dignissimos voluptatibus vero perspiciatis obcaecati vitae, magnam reprehenderit culpa ducimus. Dolorem!
-          </div>
-        </div>
-      </div>
+
     </>
   );
 };

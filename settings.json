@@ -1,0 +1,7 @@
+{
+  "galaxy.meteor.com": {
+    "env": {
+      "MONGO_URL": "mongodb+srv://krammer439298:CBuNwwHmxBxEEdLA@nodeproj.3zgle.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    }
+  }
+}

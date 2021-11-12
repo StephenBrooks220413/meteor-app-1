@@ -16,9 +16,9 @@ export const App = () => (
   <>
     <Router>
       <div>
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Jennifer</a>
+          <a class="navbar-brand" href="#">MeteorDev</a>
           <button
             class="navbar-toggler"
             type="button"
