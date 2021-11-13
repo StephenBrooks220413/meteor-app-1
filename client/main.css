@@ -57,8 +57,8 @@ body {
 }
 
 .intro {
-  background: url(https://images.unsplash.com/photo-1541462608143-67571c6738dd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80)
-  no-repeat center center fixed;
+  background: url(https://images.unsplash.com/photo-1633432695542-b2c8e2b8a26c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1332&q=80)
+  no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -77,4 +77,46 @@ body {
   font-size: 3.6em;
   color: darkgrey;
   letter-spacing: 40px;
+}
+
+.content1 {
+  background-image: linear-gradient(176deg, #b7bfc1 70%, #FFFFFF 70%);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.max {
+  max-height: 360px;
+  width: 100%;
+}
+
+.form {
+  width: 80%;
+}
+
+input {
+  border: 1px solid black!important;
+}
+
+textarea {
+  border: 1px solid black!important;
+}
+
+.line {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.show {
+  width: 280px;
+  height: 110px;
+}
+
+.format-text {
+  height:290px;
+  width:90%;
+  /*border:1px solid #4e4e4e;*/
+  overflow:auto;
+  display: inline-block;
 }

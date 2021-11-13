@@ -2,6 +2,7 @@ import React from 'react';
 import { Home } from './Home.jsx';
 import { About } from './About.jsx';
 import { Users } from './Users.jsx';
+import {Resources } from './Resources.jsx';
 import 'mdb-ui-kit/css/mdb.min.css';
 import 'mdb-ui-kit/js/mdb.min.js';
 import 'animate.css';
@@ -19,7 +20,7 @@ export const App = () => (
       <div>
       <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">MeteorDev</a>
+          <a class="navbar-brand text-primary" href="#">CWD</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -40,11 +41,11 @@ export const App = () => (
                 <Link class="nav-link active" to="/about">About</Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link active" to="/users">Users</Link>
+                <Link class="nav-link active" to="/users">Clients</Link>
               </li>
             </ul>
             <span class="navbar-text">
-              Resources
+              <Link class="nav-link active" to="/resources">Resources</Link>
             </span>
           </div>
         </div>
@@ -55,6 +56,9 @@ export const App = () => (
         <Switch>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/resources">
+            <Resources />
           </Route>
           <Route path="/users">
             <Users />
